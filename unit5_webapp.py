@@ -549,7 +549,7 @@ def show_result():
             if int(el.q16) == 3:
                 dobrze_prac = dobrze_prac + 1
     if licealisci != 0:
-        dobrze_lic = dobrze_sr / licealisci
+        dobrze_lic = dobrze_lic / licealisci
     if studenci != 0:
         dobrze_stud = dobrze_stud / studenci
     if pracujacy != 0:

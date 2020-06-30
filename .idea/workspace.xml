@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143342f7-f0c3-4a1d-a49f-54909ebdc64e" name="Default" comment="Initial commit - Heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/unit5_webapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/__init__.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit5_webapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formdata.db" beforeDir="false" afterPath="$PROJECT_DIR$/formdata.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit5_webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit5_webapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Jinja2-2.11.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click-7.1.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/click/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/click/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/click/_termui_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/click/_termui_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/asyncfilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/asyncfilters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/loaders.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/loaders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nativetypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nativetypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/runtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/runtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,12 +233,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.unit4_webapp_simplehtml" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.unit4_webapp_simplehtml" />
+      <item itemvalue="Python.unit5_webapp" />
       <item itemvalue="Python.unit3_classes" />
       <item itemvalue="Python.unit4_webapp_simplehtml (1)" />
       <item itemvalue="Python.unit5_webapp (1)" />
-      <item itemvalue="Python.unit5_webapp" />
     </list>
     <recent_temporary>
       <list>
@@ -232,7 +262,8 @@
       <workItem from="1593423634586" duration="4607000" />
       <workItem from="1593429380660" duration="366000" />
       <workItem from="1593429968903" duration="9915000" />
-      <workItem from="1593505224391" duration="32470000" />
+      <workItem from="1593505224391" duration="39894000" />
+      <workItem from="1593592232281" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1593536511714</created>
@@ -283,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593541145463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit - Heroku">
+      <created>1593541475947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593541475948</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -316,12 +354,12 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="568" y="246" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1593535978373" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593527024741">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593545431891">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="-1152" y="-228" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591348658570" />
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590260227707" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1593527024741" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1593545431891" />
     <state x="448" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593539484036">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -347,37 +385,37 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="392" y="88" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1593534682639" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1593541400544">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1593552779889">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052944" />
     <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591720641556" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593541400544" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593552779889" />
     <state width="1419" height="106" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1593541400544">
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1593552779873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591720641555" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593541400544" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593552779873" />
     <state width="1419" height="106" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1593541400543">
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1593552779873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022449" />
     <state width="1367" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591720641555" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593541400543" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593552779873" />
     <state width="1419" height="106" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585922741355" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1593541400544">
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1593552779873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591720641556" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593541400544" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593552779873" />
     <state width="1419" height="106" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
     <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1586388298080">
       <screen x="0" y="0" width="1366" height="728" />
@@ -399,6 +437,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1593427686452" />
+    <state x="212" y="58" key="MergeDialog" timestamp="1593547421996">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="212" y="58" key="MergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1593547421996" />
+    <state x="571" y="251" width="389" height="265" key="MultipleFileMergeDialog" timestamp="1593547434646">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="571" y="251" width="389" height="265" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1593547434646" />
     <state x="210" y="20" key="SettingsEditor" timestamp="1593540959346">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -407,10 +453,10 @@
     <state x="210" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591720612454" />
     <state x="210" y="20" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1593540959346" />
     <state x="221" y="73" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585850366365" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1593539802936">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1593547517358">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593539802936" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593547517358" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1591720535969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -423,7 +469,7 @@
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1593437552999" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/unit5$ankieta1_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593541400377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/unit5$ankieta1_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593541824080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/unit5$unit5_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593540850414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:D:\Dokumenty\Desktop\Magisterka AGH-IB-IEM\Aplikacje webowe\ankieta1\formdata.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="formdata [2]" uuid="44d216f1-c911-411e-ae0f-a393f46ff365">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Dokumenty\Desktop\Magisterka AGH-IB-IEM\Aplikacje webowe\Aplikacja\formdata.db</jdbc-url>
+    </data-source>
   </component>
 </project>
