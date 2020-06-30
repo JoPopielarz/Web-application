@@ -1,0 +1,25 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h1 class="display-4">Witamy w naszej ankiecie</h1>
+    <p class="lead"> Ankieta ma na celu poznanie wiedzy społeczeństwa na temat pierwszej pomocy</p>
+    <hr class="my-4">
+    <p>Ankieta jest anonimowa i zostanie wykorzystana wyłącznie do celów naukowych. Badanie składa się z krótkiej metryki osoby wypełniającej i pytań testowych z jedną poprawną odpowiedzią. <br><br>Dziękujemy za udział w badaniu!</p>
+  </div>
+
+  <div class="page-header">
+    <h1>Rozpocznij ankietę lub zobacz wyniki</h1>
+  </div>
+
+  <p>
+    <a class="btn btn-primary" href="/form" role="button">Wypełnij ankietę</a>
+    <a class="btn btn-primary" href="/result" role="button">Pokaż wyniki</a>
+  </p>
+
+
+{% endblock %}
+

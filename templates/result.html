@@ -1,0 +1,445 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-header">
+    <h1>Wyniki</h1>
+</div>
+<body>
+    <table class="columns" style="margin-left:auto;margin-right:auto;">
+      <tr>
+          <td><div id="Plec"></div></td>
+          <td><div id="Wyksztalcenie"></div></td>
+      </tr>
+      <tr>
+          <td><div id="GrupaWiekowa"></div></td>
+          <td><div id="Pomoc"></div></td>
+      </tr>
+      <tr>
+          <td><div id="Porownanie1"></div></td>
+          <td><div id="Porownanie2"></div></td>
+      </tr>
+      <tr>
+          <td><div id="Porownanie3"></div></td>
+          <td><div id="Porownanie4"></div></td>
+      </tr>
+    </table>
+    <br><br>
+    <td><div id="Pytanie 1"></div></td>
+    <td><div id="Pytanie 2"></div></td>
+    <td><div id="Pytanie 3"></div></td>
+    <td><div id="Pytanie 4"></div></td>
+    <td><div id="Pytanie 5"></div></td>
+    <td><div id="Pytanie 6"></div></td>
+    <td><div id="Pytanie 7"></div></td>
+    <td><div id="Pytanie 8"></div></td>
+    <td><div id="Pytanie 9"></div></td>
+    <td><div id="Pytanie 10"></div></td>
+    <td><div id="Pytanie 11"></div></td>
+    <td><div id="Pytanie 12"></div></td>
+    <td><div id="Pytanie 13"></div></td>
+    <td><div id="Pytanie 14"></div></td>
+    <td><div id="Pytanie 15"></div></td>
+    <td><div id="Pytanie 16"></div></td>
+</body>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('visualization', '1', {'packages':['corechart']});
+  google.setOnLoadCallback(drawPlec);
+  google.setOnLoadCallback(drawWyksztalcenie);
+  google.setOnLoadCallback(drawGrupaWiekowa);
+  google.setOnLoadCallback(drawPomoc);
+  google.setOnLoadCallback(drawPorownanie1);
+  google.setOnLoadCallback(drawPorownanie2);
+  google.setOnLoadCallback(drawPorownanie3);
+  google.setOnLoadCallback(drawPorownanie4);
+  google.setOnLoadCallback(drawPytanie1);
+  google.setOnLoadCallback(drawPytanie2);
+  google.setOnLoadCallback(drawPytanie3);
+  google.setOnLoadCallback(drawPytanie4);
+  google.setOnLoadCallback(drawPytanie5);
+  google.setOnLoadCallback(drawPytanie6);
+  google.setOnLoadCallback(drawPytanie7);
+  google.setOnLoadCallback(drawPytanie8);
+  google.setOnLoadCallback(drawPytanie9);
+  google.setOnLoadCallback(drawPytanie10);
+  google.setOnLoadCallback(drawPytanie11);
+  google.setOnLoadCallback(drawPytanie12);
+  google.setOnLoadCallback(drawPytanie13);
+  google.setOnLoadCallback(drawPytanie14);
+  google.setOnLoadCallback(drawPytanie15);
+  google.setOnLoadCallback(drawPytanie16);
+
+  function drawPlec() {
+    var data = google.visualization.arrayToDataTable([
+          ['Płeć', 'Ilość'],
+          ['Kobiety', {{ plec_data[0][1] }}],
+          ['Mężczyźni', {{ plec_data[1][1] }}],
+        ]);
+    var options = {
+          title: 'Płeć',
+          width:600,
+          height:450
+        };
+    var chart = new google.visualization.PieChart(document.getElementById('Plec'));
+    chart.draw(data, options);
+  }
+
+  function drawWyksztalcenie() {
+    var data = google.visualization.arrayToDataTable([
+          ['Wykształcenie', 'Ilość'],
+          ['Podstawowe', {{ wyksztalcenie_data[0][1] }}],
+          ['Średnie', {{ wyksztalcenie_data[1][1] }}],
+          ['Wyższe', {{ wyksztalcenie_data[2][1] }}],
+          ['Student', {{ wyksztalcenie_data[3][1] }}],
+        ]);
+    var options = {
+          title: 'Wykształcenie',
+          width:600,
+          height:450
+        };
+    var chart = new google.visualization.PieChart(document.getElementById('Wyksztalcenie'));
+    chart.draw(data, options);
+  }
+
+  function drawGrupaWiekowa() {
+    var data = google.visualization.arrayToDataTable([
+          ['Grupa Wiekowa', 'Ilość'],
+          ['Licealiści', {{ grwiek_data[0][1] }}],
+          ['Studenci', {{ grwiek_data[1][1] }}],
+          ['Pracujący', {{ grwiek_data[2][1] }}],
+        ]);
+    var options = {
+          title: 'Grupa wiekowa',
+          width:600,
+          height:450
+        };
+    var chart = new google.visualization.PieChart(document.getElementById('GrupaWiekowa'));
+    chart.draw(data, options);
+  }
+
+  function drawPomoc() {
+    var data = google.visualization.arrayToDataTable([
+          ['Pomoc', 'Ilość'],
+          ['Tak', {{ pomoc_data[0][1] }}],
+          ['Nie', {{ pomoc_data[1][1] }}],
+        ]);
+    var options = {
+          title: 'Czy kiedykolwiek Pan/Pani udzielała pierwszej pomocy?',
+          width:600,
+          height:450
+        };
+    var chart = new google.visualization.PieChart(document.getElementById('Pomoc'));
+    chart.draw(data, options);
+  }
+
+  function drawPorownanie1() {
+    var data = new google.visualization.DataTable()
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Średnia odpowiedzi');
+
+    data.addRows( {{ por1_data|tojson }} );
+
+    var options = {
+          title: 'Średnia ilość poprawnych odpowiedzi w ankiecie w zależności od płci',
+          legend: 'none',
+          colors: ['#22AA99']
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Porownanie1'));
+    chart.draw(data, options);
+  }
+
+  function drawPorownanie2() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Średnia odpowiedzi');
+
+    data.addRows( {{ por2_data|tojson }} );
+
+    var options = {
+          title: 'Średnia ilość poprawnych odpowiedzi w ankiecie w zależności od wykształcenia',
+          legend: 'none',
+          colors: ['#22AA99']
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Porownanie2'));
+    chart.draw(data, options);
+  }
+
+  function drawPorownanie3() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Średnia odpowiedzi');
+
+    data.addRows( {{ por3_data|tojson }} );
+
+    var options = {
+          title: 'Średnia ilość poprawnych odpowiedzi w ankiecie w zależności od grupy wiekowej',
+          legend: 'none',
+          colors: ['#22AA99']
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Porownanie3'));
+    chart.draw(data, options);
+  }
+
+  function drawPorownanie4() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Średnia odpowiedzi');
+
+    data.addRows( {{ por4_data|tojson }} );
+
+    var options = {
+          title: 'Średnia ilość poprawnych odpowiedzi w ankiecie w zależności od udzielenia pierwszej pomocy',
+          legend: 'none',
+          colors: ['#22AA99']
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Porownanie4'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie1() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q1_data|tojson }} );
+
+    var options = {
+          title: '1. Jaki jest numer pogotowia ratunkowego?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 1'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie2() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q2_data|tojson }} );
+
+    var options = {
+          title: '2. Co powinieneś zrobić jako pierwsze podczas udzielania pierwszej pomocy osobie nieprzytomnej?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 2'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie3() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q3_data|tojson }} );
+
+    var options = {
+          title: '3. Osobę nieprzytomną z zachowanym oddechem, leżącą na przystanku należy:',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 3'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie4() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q4_data|tojson }} );
+
+    var options = {
+          title: '4. W przypadku omdlenia najlepszym wyborem jest:',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 4'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie5() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q5_data|tojson }} );
+
+    var options = {
+          title: '5. W kinie nagle upada jeden z klientów, zaczyna drgać, co Pan/Pani robi?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 5'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie6() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q6_data|tojson }} );
+
+    var options = {
+          title: '6. Co to jest AED?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 6'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie7() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q7_data|tojson }} );
+
+    var options = {
+          title: '7. Podczas seansu filmu jeden z widzów zaczyna się krztusić najlepszym wyborem jest:',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 7'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie8() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q8_data|tojson }} );
+
+    var options = {
+          title: '8. Jakie zastosujesz postepowanie podczas krwawienia z nosa?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 8'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie9() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q9_data|tojson }} );
+
+    var options = {
+          title: '9. Jak poprawnie sprawdzić czy poszkodowany oddycha?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 9'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie10() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q10_data|tojson }} );
+
+    var options = {
+          title: '10. Jaki powinien być stosunek uciśnięć klatki piersiowej do wdechów u osoby dorosłej nieprzytomnej, nieoddychającej?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 10'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie11() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q11_data|tojson }} );
+
+    var options = {
+          title: '11. Jaka powinna być częstotliwość uciśnięć klatki piersiowej oraz ich głębokość?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 11'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie12() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q12_data|tojson }} );
+
+    var options = {
+          title: '12. Jakie jest postępowanie w przypadku oparzenia?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 12'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie13() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q13_data|tojson }} );
+
+    var options = {
+          title: '13. Jakie są objawy udaru?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 13'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie14() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q14_data|tojson }} );
+
+    var options = {
+          title: '14. Jakie są objawy zawału?',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 14'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie15() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q15_data|tojson }} );
+
+    var options = {
+          title: '15. Przy podejrzeniu złamania kończyny należy:',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 15'));
+    chart.draw(data, options);
+  }
+
+  function drawPytanie16() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Question');
+    data.addColumn('number', 'Ilość odpowiedzi');
+
+    data.addRows( {{ q16_data|tojson }} );
+
+    var options = {
+          title: '16. Przy obfitym krwawieniu z rany kończyny należy:',
+          legend: 'none'
+        };
+    var chart = new google.visualization.ColumnChart(document.getElementById('Pytanie 16'));
+    chart.draw(data, options);
+  }
+</script>
+<br>
+<br>
+
+{% endblock %}
