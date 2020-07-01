@@ -24,13 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143342f7-f0c3-4a1d-a49f-54909ebdc64e" name="Default" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/templates/correct_answers.html" afterDir="false" />
+    <list default="true" id="143342f7-f0c3-4a1d-a49f-54909ebdc64e" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;templates/result.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formdata.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit5_webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit5_webapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/correct_answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/correct_answers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +263,7 @@
       <workItem from="1593505224391" duration="39894000" />
       <workItem from="1593592232281" duration="1707000" />
       <workItem from="1593595516411" duration="911000" />
-      <workItem from="1593603403146" duration="1378000" />
+      <workItem from="1593603403146" duration="3755000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1593536511714</created>
@@ -338,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593595965717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;templates/result.html">
+      <created>1593605040686</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593605040686</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,7 +382,8 @@
     <MESSAGE value="Initial commit - Heroku" />
     <MESSAGE value="Correction commit" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;templates/result.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;templates/result.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="246" key="#Notifications" timestamp="1593535978373">
@@ -416,37 +421,37 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="392" y="88" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1593534682639" />
-    <state width="1323" height="124" key="GridCell.Tab.0.bottom" timestamp="1593604755215">
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom" timestamp="1593606907034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052944" />
     <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591720641556" />
-    <state width="1323" height="124" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593604755215" />
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593606907034" />
     <state width="1419" height="106" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
-    <state width="1323" height="124" key="GridCell.Tab.0.center" timestamp="1593604755215">
+    <state width="1323" height="124" key="GridCell.Tab.0.center" timestamp="1593606907034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591720641555" />
-    <state width="1323" height="124" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593604755215" />
+    <state width="1323" height="124" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593606907034" />
     <state width="1419" height="106" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
-    <state width="1323" height="124" key="GridCell.Tab.0.left" timestamp="1593604755214">
+    <state width="1323" height="124" key="GridCell.Tab.0.left" timestamp="1593606907034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022449" />
     <state width="1367" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591720641555" />
-    <state width="1323" height="124" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593604755214" />
+    <state width="1323" height="124" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593606907034" />
     <state width="1419" height="106" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585922741355" />
-    <state width="1323" height="124" key="GridCell.Tab.0.right" timestamp="1593604755215">
+    <state width="1323" height="124" key="GridCell.Tab.0.right" timestamp="1593606907034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1281" height="235" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@-1280.-258.1280.984" timestamp="1591468052943" />
     <state width="1367" height="138" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1589313022459" />
     <state width="1367" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591720641556" />
-    <state width="1323" height="124" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593604755215" />
+    <state width="1323" height="124" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593606907034" />
     <state width="1419" height="106" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585922741356" />
     <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1586388298080">
       <screen x="0" y="0" width="1366" height="728" />
@@ -484,10 +489,10 @@
     <state x="210" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591720612454" />
     <state x="210" y="20" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1593540959346" />
     <state x="221" y="73" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585850366365" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1593596091641">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1593605055874">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593596091641" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593605055874" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1591720535969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -505,6 +510,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/unit5$ankieta1_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593541824080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/unit5$unit5_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593604957255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/unit5$unit5_webapp.coverage" NAME="unit5_webapp Coverage Results" MODIFIED="1593606906950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
