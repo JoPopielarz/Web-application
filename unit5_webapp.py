@@ -1017,6 +1017,10 @@ def save():
 def show_group():
     return render_template('group.html')
 
+@app.route("/correct_answers")
+def correct_answers():
+    return render_template('correct_answers.html')
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
